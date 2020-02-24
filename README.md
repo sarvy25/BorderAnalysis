@@ -11,7 +11,7 @@
 ## Problem
 The Bureau of Transportation Statistics regularly makes available data on the number of vehicles, equipment, passengers and pedestrians crossing into the United States by land.
 
-**For this challenge, we want to you to calculate the total number of times vehicles, equipment, passengers and pedestrians cross the U.S.-Canadian and U.S.-Mexican borders each month. We also want to know the running monthly average of total number of crossings for that type of crossing and border.**
+**We want to calculate the total number of times vehicles, equipment, passengers and pedestrians cross the U.S.-Canadian and U.S.-Mexican borders each month. We also want to know the running monthly average of total number of crossings for that type of crossing and border.**
 
 ## Approach
 The program is implemented in Python. It is compatible with Python3.
@@ -50,10 +50,3 @@ The program expects to get two string arguments:
 
 For ease of use, a bash script is provided in the root directory of the project ```run.sh```. By default, this scripts looks for an input file named ```Border_Crossing_Entry_Data.csv``` in the ```input``` directory and by default writes the output as ```report.csv``` in the ```output``` directory.
 
-### Testing
-The project is tested by the provided ```insight_testsuite``` for the given input/output files.
-To test please run the following commands:
-```
-cd insight_testsuite
-bash run_tests.sh
-```
