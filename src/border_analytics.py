@@ -1,5 +1,4 @@
 """
-Insigh Data Engineering Challenge.
 Border Crossing Analysis.
 @author: Sarvenaz Memarzadeh
 email: smemarza@umd.edu
